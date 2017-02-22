@@ -1,6 +1,8 @@
 package com.hibernate.compoundkey;
 
+import javax.persistence.Entity;
 import javax.persistence.Id;
+@Entity
 public class Accounts {
 
 	CompoundKey compoundKey;

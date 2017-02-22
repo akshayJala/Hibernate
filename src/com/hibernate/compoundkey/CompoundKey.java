@@ -3,8 +3,10 @@ package com.hibernate.compoundkey;
 import java.io.Serializable;
 
 import javax.persistence.Embeddable;
+import javax.persistence.Id;
 @Embeddable
 public class CompoundKey implements Serializable {
+	@Id
 	private int userId;
 	private int accountId;
 	
